@@ -5,7 +5,7 @@ from psycopg2 import sql
 def connect():    
     return psycopg2.connect(
         user="postgres",
-        password="admin123",
+        password="",
         host="localhost",
         port="5432",
         database="mini_liblary"
